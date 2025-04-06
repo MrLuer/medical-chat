@@ -1,0 +1,73 @@
+2024-08-11 00:02:35-train-INFO: 开始 LoRA 训练
+2024-08-11 00:03:29-train-INFO: 从../../dataset/model/model加载模型成功
+2024-08-11 00:03:39-train-INFO: 加载 LoRA 参数成功
+2024-08-11 00:03:41-train-INFO: 从dev.mutil.turn.json加载数据集成功
+2024-08-11 00:03:42-train-INFO: 成功加载 Trainer
+2024-08-11 00:05:36-train-INFO: 开始 LoRA 训练
+2024-08-11 00:06:28-train-INFO: 从../../dataset/model/model加载模型成功
+2024-08-11 00:06:37-train-INFO: 加载 LoRA 参数成功
+2024-08-11 00:06:37-train-INFO: 从dev.mutil.turn.json加载数据集成功
+2024-08-11 00:06:37-train-INFO: 成功加载 Trainer
+2024-08-11 00:08:40-train-INFO: 开始 LoRA 训练
+2024-08-11 00:08:55-train-INFO: 从../../dataset/model/model加载模型成功
+2024-08-11 00:09:02-train-INFO: 加载 LoRA 参数成功
+2024-08-11 00:09:02-train-INFO: 从dev.mutil.turn.json加载数据集成功
+2024-08-11 00:09:02-train-INFO: 成功加载 Trainer
+2024-08-11 02:12:09-train-INFO: 训练完成，训练结果保存在model_kefu
+2024-08-11 02:12:09-train-INFO: 模型参数保存在model_kefu
+2024-08-11 02:36:30-train-INFO: 开始 LoRA 训练
+2024-08-11 02:36:44-train-INFO: 从../../dataset/model/model加载模型成功
+2024-08-11 02:36:55-train-INFO: 加载 LoRA 参数成功
+2024-08-11 02:36:55-train-INFO: 从dev.mutil.turn.json加载数据集成功
+2024-08-11 02:36:55-train-INFO: 成功加载 Trainer
+2024-08-11 05:27:56-train-INFO: 训练完成，训练结果保存在model_kefu
+2024-08-11 05:27:56-train-INFO: 模型参数保存在model_kefu
+2024-08-11 16:37:11-train-INFO: 开始 LoRA 训练
+2024-08-11 16:37:23-train-INFO: 从../../dataset/model/model加载模型成功
+2024-08-11 16:37:30-train-INFO: 加载 LoRA 参数成功
+2024-08-11 16:37:30-train-INFO: 从dev.mutil.turn.json加载数据集成功
+2024-08-11 16:37:30-train-INFO: 成功加载 Trainer
+2024-08-11 19:18:51-train-INFO: 训练完成，训练结果保存在model_kefu
+2024-08-11 19:18:51-train-INFO: 模型参数保存在model_kefu
+2024-08-18 03:12:08-train-INFO: 开始 LoRA 训练
+2024-08-18 03:12:19-train-INFO: 从../../dataset/model/model加载模型成功
+2024-08-18 03:12:27-train-INFO: 加载 LoRA 参数成功
+2024-08-18 03:12:44-train-INFO: 从train.json加载数据集成功
+2024-08-18 03:12:44-train-INFO: 成功加载 Trainer
+2024-08-18 03:14:35-train-INFO: 开始 LoRA 训练
+2024-08-18 03:14:41-train-INFO: 从../../dataset/model/model加载模型成功
+2024-08-18 03:14:47-train-INFO: 加载 LoRA 参数成功
+2024-08-18 03:14:47-train-INFO: 从train.json加载数据集成功
+2024-08-18 03:14:47-train-INFO: 成功加载 Trainer
+2024-08-18 17:16:28-train-INFO: 训练完成，训练结果保存在model_md
+2024-08-18 17:16:28-train-INFO: 模型参数保存在model_md
+2024-08-18 19:45:49-train-INFO: 开始 LoRA 训练
+2024-08-18 19:46:47-train-INFO: 从../../dataset/model/model加载模型成功
+2024-08-18 19:46:56-train-INFO: 加载 LoRA 参数成功
+2024-08-18 19:46:58-train-INFO: 从train1.json加载数据集成功
+2024-08-18 19:46:58-train-INFO: 成功加载 Trainer
+2024-08-19 00:01:22-train-INFO: 训练完成，训练结果保存在model_md1
+2024-08-19 00:01:22-train-INFO: 模型参数保存在model_md1
+2025-04-06 19:47:49-train-INFO: 开始 LoRA 训练
+2025-04-06 19:49:42-train-INFO: 从/autodl-fs/data/model加载模型成功
+2025-04-06 19:49:52-train-INFO: 加载 LoRA 参数成功
+2025-04-06 19:49:53-train-INFO: 从../../dataset/train/lora/huanhuan.json加载数据集成功
+2025-04-06 19:49:53-train-INFO: 成功加载 Trainer
+2025-04-06 19:49:54-train-INFO: 训练完成，训练结果保存在model2
+2025-04-06 19:49:54-train-INFO: 模型参数保存在model2
+2025-04-06 19:54:55-train-INFO: 开始 LoRA 训练
+2025-04-06 19:55:02-train-INFO: 从../../dataset/model/model加载模型成功
+2025-04-06 19:55:11-train-INFO: 加载 LoRA 参数成功
+2025-04-06 20:01:58-train-INFO: 从../../dataset/input/medical/lora/train.json加载数据集成功
+2025-04-06 20:01:58-train-INFO: 成功加载 Trainer
+2025-04-07 01:07:35-train-INFO: 开始 LoRA 训练
+2025-04-07 01:10:28-train-INFO: 从../../data/model/base加载模型成功
+2025-04-07 01:10:38-train-INFO: 加载 LoRA 参数成功
+2025-04-07 01:10:38-train-ERROR: 从../../dataset/input/medical/lora/train.json加载数据集失败
+2025-04-07 01:10:38-train-ERROR: 错误信息为：
+2025-04-07 01:10:38-train-ERROR: DatasetGenerationError('An error occurred while generating the dataset')
+2025-04-07 01:14:21-train-INFO: 开始 LoRA 训练
+2025-04-07 01:15:34-train-INFO: 从../../data/model/base加载模型成功
+2025-04-07 01:15:44-train-INFO: 加载 LoRA 参数成功
+2025-04-07 01:21:24-train-INFO: 从../../data/lora/train.json加载数据集成功
+2025-04-07 01:21:24-train-INFO: 成功加载 Trainer

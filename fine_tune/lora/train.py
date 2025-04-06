@@ -6,7 +6,7 @@ from transformers import AutoTokenizer, AutoModel
 from transformers import AutoModelForCausalLM
 import torch
 import torch.nn as nn
-from peft import get_peft_model, LoraConfig, TaskType, PeftModel
+from peft import get_peft_model, LoraConfig, TaskType, PeftModel,inject_adapter_in_model
 from dataclasses import dataclass, field
 from transformers import BitsAndBytesConfig
 import datasets
@@ -155,7 +155,7 @@ class ModifiedTrainer(Trainer):
         saved_params = {
             k: v.to("cpu") for k, v in self.model.named_parameters() if v.requires_grad
         }
-        torch.save(saved_params, os.path.join(output_dir, "adapter_model.bin"))
+        #torch.save(saved_params, os.path.join(output_dir, "adapter_model.bin"))
 
 class ModifiedTrainer13B(Trainer):
     def compute_loss(self, model, inputs, return_outputs=False):
@@ -302,7 +302,8 @@ def main():
     logger.info("成功加载 Trainer")
     trainer.train()
     logger.info("训练完成，训练结果保存在{}".format(training_args.output_dir))
-    # 保存模型
+  
+    
     model.save_pretrained(training_args.output_dir)
     logger.info("模型参数保存在{}".format(training_args.output_dir))
 
